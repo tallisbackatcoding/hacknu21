@@ -1,0 +1,1 @@
+INSERT INTO public.role (id, name) VALUES (1, 'ROLE_USER') ON CONFLICT(id) DO UPDATE set id=100, name='ROLE_USER';
